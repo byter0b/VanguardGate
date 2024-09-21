@@ -1,8 +1,7 @@
-﻿namespace VanguardGate
+﻿namespace VanguardGate;
+
+public class GameConfig
 {
-    public class GameConfig
-    {
-        public string? Name { get; set; }
-        public List<string>? ProcessNames { get; set; }
-    }
+    public string? Name { get; set; }
+    public List<string>? ProcessNames { get; set; }
 }
